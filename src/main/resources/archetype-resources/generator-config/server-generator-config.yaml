@@ -1,0 +1,15 @@
+---
+modelPackage: ${groupId}.${artifactId}.models
+apiPackage: ${groupId}.${artifactId}.api
+invokerPackage: ${groupId}.${artifactId}
+groupId: ${groupId}
+artifactId: ${artifactId}
+dateLibrary: java8
+booleanGetterPrefix: is
+artifactVersion: 1.0.0
+hideGenerationTimestamp: true
+sourceFolder: src/gen/java/main
+templateDirectory: resteasy-quarkus-templates
+generateApis: true
+generateModels: true
+generateSupportingFiles: false
