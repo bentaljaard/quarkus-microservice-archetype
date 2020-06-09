@@ -1,5 +1,8 @@
-**/main/webapp/
+
+**/webapp/
 **/*.gradle
 **/JacksonConfig.java
 **/RestApplication.java
 **/RFC3339DateFormat.java
+**/pom.xml
+**/README.md

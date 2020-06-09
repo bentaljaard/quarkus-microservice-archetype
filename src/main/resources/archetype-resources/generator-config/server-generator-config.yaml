@@ -8,8 +8,3 @@ dateLibrary: java8
 booleanGetterPrefix: is
 artifactVersion: 1.0.0
 hideGenerationTimestamp: true
-sourceFolder: src/gen/java/main
-templateDirectory: resteasy-quarkus-templates
-generateApis: true
-generateModels: true
-generateSupportingFiles: false
