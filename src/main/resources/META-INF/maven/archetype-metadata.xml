@@ -22,6 +22,11 @@ under the License.
 <archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
   name="${artifactId}">
+  <requiredProperties>
+    <requiredProperty key="openapi-url">
+      <defaultValue>src/main/resources/META_INF/openapi.yaml</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 
   <fileSets>
     <fileSet filtered="true" packaged="true">

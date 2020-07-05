@@ -127,7 +127,7 @@
                     <generatorName>com.github.bentaljaard.ResteasyQuarkusCodegen</generatorName>
                     <output>${project.basedir}</output>
                     <configurationFile>${project.basedir}/generator-config/server-generator-config.yaml</configurationFile>
-                    <templateDirectory>${project.basedir}/resteasy-quarkus-template</templateDirectory>
+                    <templateDirectory>${project.basedir}/generator-config/resteasy-quarkus-template</templateDirectory>
                     <generateApis>true</generateApis>
                     <generateModels>true</generateModels>
                     <generateSupportingFiles>true</generateSupportingFiles>
@@ -174,7 +174,7 @@
                         <generatorName>com.github.bentaljaard.ResteasyQuarkusCodegen</generatorName>
                         <output>${project.basedir}</output>
                         <configurationFile>${project.basedir}/generator-config/server-generator-config.yaml</configurationFile>
-                        <templateDirectory>${project.basedir}/resteasy-quarkus-template</templateDirectory>
+                        <templateDirectory>${project.basedir}/generator-config/resteasy-quarkus-template</templateDirectory>
                         <generateApis>true</generateApis>
                         <generateModels>true</generateModels>
                         <generateSupportingFiles>true</generateSupportingFiles>
