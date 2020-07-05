@@ -15,10 +15,10 @@ def apiText = url.getText(encoding)
 
 log.info "Writing OpenAPI definition to openapi.yaml file..."
 
-def fileDir = Paths.get(request.outputDirectory, request.artifactId, 'src/main/resources/META_INF').toFile()
+def fileDir = Paths.get(request.outputDirectory, request.artifactId, 'src/main/resources/META-INF').toFile()
 def fileName = 'openapi.yaml'
 def file = new File(fileDir, fileName)
-// fileDir.mkdirs();
+fileDir.mkdirs();
 file.setText(apiText, encoding)
 
 // run("mvn compile")
